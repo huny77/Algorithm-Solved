@@ -4,6 +4,7 @@
 바꾸는 것을 반복합니다.
 - 시간 복잡도 : O(N^2)
 """
+# 예시 arr
 arr = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 
 for i in range(len(arr)):
@@ -13,4 +14,5 @@ for i in range(len(arr)):
             min_index = j
     arr[i], arr[min_index] = arr[min_index], arr[i] # 스와프
 
+# 출력
 print(arr)
